@@ -1,0 +1,29 @@
+[tool]
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = [ "Marcus Schiesser <mail@marcusschiesser.de>" ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.12"
+fastapi = "^0.104.1"
+pypdf = "^3.17.0"
+python-dotenv = "^1.0.0"
+docx2txt = "^0.8"
+wikipedia = "^1.4.0"
+llama-index = "^0.10.0"
+llama-index-vector-stores-milvus = "^0.1.0"
+llama-index-postprocessor-cohere-rerank = "^0.1.0"
+pymilvus = "^2.3.6"
+pyarrow = "^12.0.0"
+nemoguardrails="^0.7.1"
+
+[tool.poetry.dependencies.uvicorn]
+extras = [ "standard" ]
+version = "^0.23.2"
+
+[build-system]
+requires = [ "poetry-core" ]
+build-backend = "poetry.core.masonry.api"
