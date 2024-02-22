@@ -7,6 +7,6 @@ On a quest for enterprise production RAG, we explore how we craft RAG microservi
 - Adding NeMo Guardrails to `inference-service` to add guardrails for user inputs, LLM outputs, topical moderation, and custom actions to integrate with LlamaIndex.
 - more to come.
 
-  
+Refer to my blog [The Journey of RAG Development: From Notebook to Microservices](https://medium.com/towards-data-science/the-journey-of-rag-development-from-notebook-to-microservices-cc065d0210ef?sk=6644d8faadc5f9ef558f225510505fd6) for details on the implementation of both microservices.
 
 
